@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<title>Disney World Day Guide</title>
+<link href="project.css" rel="stylesheet">
+<meta charset="utf-8">
+</head>
+<body>
+<header>
+<h1><a href="index.html">Disney World Day Guide</a></h1>
+</header>
+<div id="wrapper">
+
+<nav>
+      <a href="index.html">Home</a>  &nbsp;
+         <a href="magickingdom.html">Magic Kingdom</a>  &nbsp;
+         <a href="animalkingdom.html">Animal Kingdom</a> &nbsp;
+         <a href="epcot.html">Epcot</a> &nbsp;
+	 <a href="hollywoodstudios.html">Hollywood Studios</a>
+</nav>
+
+<main>
+<h2>Home</h2>
+
+<div class="content">
+<p>Have you never been to Disney Wolrd and are wondering how you can make the most out of your trip? Or do you just want to ride all of the rides at one park in one day? Well whatever may be the case this is a guide on how you can make the most of your day at Disney depending on what park your at and what type of ride you are in the mode for!</p>
+
+<img src="walt_mickey.png" class="rightpic" alt="A statue of Walt Disney and Mickey Mouse" height="357" width="238">
+</div>
+
+<div class="pinkline"></div>
+
+<h2>Survey</h2>
+
+<p>Please feel free to lets us know what your favorite park and ride it at the parks!</p>
+
+<form action="https://webdevbasics.net/scripts/demo.php" method="post">
+<label for="myName">Name:</label>
+<input type="text" id="myName" name="myName" required>
+<label for="myEmail">E-mail:</label>
+<input type="email" id="myEmail" name="myEmail" required>
+<label for="myFavPark">Favorite Park:</label>
+<input type="text" id="myFavPark" name="myFavPark" list="parks" required>
+
+<datalist id="parks">
+<option value="Magic Kingdom">
+<option value="Annimal Kingdom">
+<option value="Epcot">
+<option value="Hollywood Studios">
+</datalist>
+
+<label for="myFavRide">Favorite Ride:</label>
+<textarea id="myFavRide" name="myFavRide" rows="2" cols="20" required></textarea>
+<label for="myComments">Comments:</label>
+<textarea id="myComments" name="myComments" rows="2" cols="20" required></textarea>
+<input type="submit" id="mySubmit" value="Send Now">
+</form>
+</main>
+
+<footer>
+  <a href="gkuba1@my.westga.edu">gkuba1@my.westga.edu</a>
+</footer>
+
+</div>
+</body>
+</html>

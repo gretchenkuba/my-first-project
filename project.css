@@ -1,0 +1,113 @@
+header { background-color: #FFC2C2;
+	color: #3A3636;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif; 
+	background-position: center;
+	padding: 1em;}
+
+header a:link {text-decoration: none;
+	color: #3A3636; }
+
+header a:visited { text-decoration: none;
+	color: #3A3636; }
+
+header a:hover { color: #AEC3E3; }
+
+h2 { text-align: center;}
+
+p { text-align: center; }
+
+nav { font-weight: bold;
+	text-align: center;
+	background-color: #FFE0E0;
+	padding: .5em;}
+
+nav a { text-decoration: none; }
+
+nav a:link { color: #3A3636; }
+
+nav a:visited { color: #3A3636; }
+
+nav a:hover { color: #AEC3E3; }
+
+section { float: left;
+	width: 20%;
+	margin-right: 100px;
+	margin-bottom: 1em;
+	padding: 0;
+	background-color: #EAEAEA;
+	min-height: 200px; }
+
+#wrapper { margin-left: auto;
+           margin-right: auto;
+           min-width: 700px; 
+	   background-color: #F0F0F0;
+	   display: flex;
+	   flex-direction: column;
+	   align-items: center; }
+
+footer { font-size: .70em;
+	font-weight: bold; 
+	text-align: center;
+	background-color: #FFC2C2;
+	padding: 1em;
+	margin-top: auto; 
+	width: 100%;
+	box-sizing: border-box; }
+
+footer a:link { color: #3A3636;}
+
+footer a:visited { color: #3A3636; }
+
+footer a:hover { color: #AEC3E3; }
+
+.content { display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin-bottom: 2em; }
+
+.content p { flex: 1;
+	text-align: justify; }
+
+.rightpic { margin-left: 20px; }
+
+.centerpic {display: block;
+	margin-left: auto;
+	margin-right: auto; }
+
+.pinkline { width: 100%;
+	height: 2px;
+	background-color: #FFC2C2;
+	margin: 20px 0; }
+
+table { margin: 1em auto;
+	border: 2px solid #3A3636;
+	border-collapse: collapse; }
+
+td { padding: 0.5em;
+	border: 1px solid #3A3636; }
+
+th { padding: 0.5em;
+	border: 1px solid #3A3636;
+	font-family: Georgia, "Times New Roman", serif; 
+	color: #3A3636;
+	background-color: #FFE0E0; }
+
+form { display: flex;
+       flex-direction: column;
+       padding-left: 1em;
+       width: 40%; 
+       margin: 0 auto;
+       align-items: center; }
+
+input, textarea { margin-bottom: .5em; }
+
+label { text-align: center;
+	font-family: Georgia, "Times New Roman", serif; }
+
+input[type="submit"] { grid-column: 2;
+	 background-color: #FFE0E0;
+	width: 9em; }
+
+input[type="submit"]:hover { background-color: #FFC2C2; }
